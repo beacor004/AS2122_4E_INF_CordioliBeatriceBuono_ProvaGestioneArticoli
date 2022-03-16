@@ -43,6 +43,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             Descrizione = txtDescrizione.Text;
             UnitaMisura = cmbUnitaMisura.Text;
             Prezzo = txtPrezzo.Text;
+            Codice = txtCodice.Text;
 
             status = DialogResult.OK;
             Close();

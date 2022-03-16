@@ -28,8 +28,6 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
 
         public double Prezzo { get; }
 
-        public string Descrizione { get; }
-
         public int codice { get; }
 
         public frmArticolo()

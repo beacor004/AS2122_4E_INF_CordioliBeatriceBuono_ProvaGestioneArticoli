@@ -44,7 +44,6 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             switch (cmbVisualizza.Text)
             {
                 case "Visualizza articoli":
-                    lstVisualizza.Items.Clear();
                     foreach (Articolo a in articoli)
                     {
                         lstVisualizza.Items.Add(c.Visualizzati());

@@ -18,8 +18,7 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
         {
             InitializeComponent();
 
-            // TODO: (4) creazione lista articoli
-            // ...
+            articoli = new List<Articoli>();
         }
 
         private void btnAggiungiArticolo_Click(object sender, EventArgs e)
@@ -44,8 +43,11 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
             switch (cmbVisualizza.Text)
             {
                 case "Visualizza articoli":
-                    // TODO: (2) aggiungere visualizzazione articoli inseriti nella listbox
-                    // ... lstElenco.Items.Add(a.Visualizzati()); 
+                    lstVisualizza.Items.Clear();
+                    foreach (Articolo a in articoli)
+                    {
+                        lstVisualizza.Items.Add(c.Visualizzati());
+                    }
                     break;
             }
         }

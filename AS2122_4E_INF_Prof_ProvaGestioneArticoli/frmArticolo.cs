@@ -21,6 +21,12 @@ namespace AS2122_4E_INF_Prof_ProvaGestioneArticoli
 
         // TODO: (6) aggiungere property di sola lettura dei dati inseriti nella frmArticoli per l'utilizzo in frmMain
         // ...
+
+        public string Descrizione { get; }
+
+        public string UnitaMisuria { get; }
+
+        public string Prezzo { get; }
         public frmArticolo()
         {
             InitializeComponent();
